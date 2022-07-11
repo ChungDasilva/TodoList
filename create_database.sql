@@ -1,0 +1,10 @@
+-- MYSQL
+
+CREATE TABLE `tasks` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` TEXT NULL,
+	`start` DATETIME NOT NULL,
+	`end` DATETIME NOT NULL,
+    `status` VARCHAR(30),
+	PRIMARY KEY (`id`)
+);
